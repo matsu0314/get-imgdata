@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+img {
+  max-width: 100%;
+}
+#imgArea {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  gap: 10px;
+}
+#imgArea div {
+  flex: 0 1 32%;
+}
+#imgArea img {
+  vertical-align: bottom;
+}
+#imgArea p {
+  font-size: 0.8rem;
+  color: #616161;
+  padding-top: 0;
+}
+#imgArea p span {
+  display: block;
+}
